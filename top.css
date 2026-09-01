@@ -1,0 +1,94 @@
+/*縦仕様*/
+body{
+    background-image: url(./top/haikei.svg); /*横767.01px 縦2721.38px*/
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100%;
+}
+#title{
+    margin: 24vw auto 0;
+    display: block;
+    width: 80vw;
+}
+#setumei{
+    -webkit-text-size-adjust: 100%; /*テキストサイズ狂い対策*/
+    margin: 43vw 0 0 46vw;
+    color: white;
+    text-align: center;
+    font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
+    font-weight: bold;
+    font-size: 3vw;
+    letter-spacing: 0.1vw;
+    line-height: 4.5vw;
+}
+#kome{
+    -webkit-text-size-adjust: 100%; /*テキストサイズ狂い対策*/
+    margin: 0 0 0 46vw;
+    color: white;
+    text-align: center;
+    font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
+    font-weight: bold;
+    font-size: 2.5vw;
+    letter-spacing: 0.1vw;
+    line-height: 4vw;
+}
+#allButton{
+    margin: 68vw auto 4vw;
+    display: block;
+    width: 70vw;
+}
+.button{
+    margin-top: 3vw;
+}
+#attention{
+    -webkit-text-size-adjust: 100%; /*テキストサイズ狂い対策*/
+    color: white;
+    text-align: right;
+    font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
+    font-weight: bold;
+    font-size: 2.5vw;
+    margin: 0 2vw 20vw 0;
+}
+
+
+
+@media (min-width: 481px) and (orientation: landscape){
+    /*横仕様*/
+    body{
+        background-size: cover;
+        background-position: center -60vw;
+    }      
+    #title{
+        margin: 24vw 0 0 2vw;
+        width: 46vw;
+    }
+    #setumei{
+        margin: 0 0 0 45vw;
+        font-size: 2.5vw;
+        line-height: 3.5vw;
+    }
+    #kome{
+        margin: 0 0 45vw 45vw;
+        font-size: 2vw;
+        letter-spacing: 0;
+        line-height: 3vw;
+    }
+    #allButton{
+        width: 100%;
+        margin: 0 auto 3vw;
+    }
+    .flex{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin: 2vw 5vw 0 5vw;
+    }
+    .button{
+        margin-top: 0;
+        width: 42vw;
+    }
+    #attention{
+        font-size: 2vw;
+        margin: 0 3vw 8vw 0;
+    }
+}

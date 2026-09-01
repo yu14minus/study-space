@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_2" data-name="レイヤー 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 631.1 1102.13">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fdd2c1;
+        stroke-miterlimit: 10;
+        stroke-width: 10px;
+      }
+
+      .cls-2 {
+        fill: #b7e0e4;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <g id="_レイヤー_4" data-name="レイヤー 4">
+    <g>
+      <line class="cls-1" x1="598.1" y1="376.56" x2="599.84" y2="402.74"/>
+      <polyline class="cls-1" points="564.06 210.31 598.1 270.09 598.97 358.67"/>
+      <line class="cls-1" x1="598.1" y1="425.43" x2="605.95" y2="604.34"/>
+      <polyline class="cls-1" points="607.7 627.47 625.19 737.87 463.7 728.71"/>
+      <line class="cls-1" x1="436.2" y1="730.01" x2="279.99" y2="722.16"/>
+      <polyline class="cls-1" points="18.6 693.8 24.28 708.63 94.53 711.69"/>
+      <line class="cls-1" x1="108.5" y1="711.69" x2="258.6" y2="719.54"/>
+      <line class="cls-1" x1="11.19" y1="405.36" x2="11.19" y2="531.47"/>
+      <polyline class="cls-1" points="62.24 128.27 5.08 137.87 9.44 377.87"/>
+      <line class="cls-1" x1="102.82" y1="123.55" x2="224.09" y2="104.27"/>
+      <polyline class="cls-1" points="243.77 98.16 454.1 47.54 533.08 7.83 543.55 153.14 556.2 190.23"/>
+      <polyline class="cls-1" points="134.24 761.43 266.02 767.11 277.8 809.87"/>
+      <line class="cls-1" x1="279.99" y1="826.89" x2="305.19" y2="970.45"/>
+      <polyline class="cls-1" points="308.35 992.71 323.19 1069.51 72.28 1096.56 72.28 1069.07"/>
+      <polyline class="cls-1" points="115.48 761.43 72.28 755.76 61.8 872.27 69.66 884.05 72.28 1053.36"/>
+      <polygon class="cls-2" points="197.95 385.94 197.95 423.99 155.4 423.99 150.82 598.67 361.59 604.34 365.51 431.77 324.93 429.03 326.24 391.2 197.95 385.94"/>
+      <polygon class="cls-2" points="122.02 138.52 116.13 339.47 133.8 355.83 192.06 358.67 203.84 320.49 212.35 319.83 220.2 138.52 122.02 138.52"/>
+      <polygon class="cls-2" points="209.73 880.12 209.73 892.78 281.73 898.67 277.8 965.21 101.51 949.51 104.57 895.83 197.73 902.38 201 840.41 115.48 833.43 115.48 792.85 255.55 801.14 251.92 882.06 209.73 880.12"/>
+      <polygon class="cls-2" points="122.02 978.31 88.64 1049 248.35 1062.09 248.35 992.71 122.02 978.31"/>
+      <rect class="cls-2" x="376.56" y="419.87" width="191.28" height="184.47"/>
+      <rect class="cls-2" x="104.66" y="632.6" width="101.36" height="64.15"/>
+      <rect class="cls-2" x="290.31" y="643.07" width="127.64" height="68.62"/>
+      <rect class="cls-2" x="472.2" y="627.47" width="114.62" height="89.56"/>
+      <rect class="cls-2" x="383.47" y="76.6" width="72.38" height="113.35" transform="translate(5.05 -14.97) rotate(2.06)"/>
+      <rect class="cls-2" x="472.2" y="321.69" width="103" height="75.93"/>
+      <rect class="cls-2" x="303.56" y="218.77" width="136.33" height="164.18"/>
+      <rect class="cls-2" x="343.11" y="218.77" width="211.42" height="82.09"/>
+      <rect class="cls-2" x="245.44" y="259.82" width="73.96" height="123.14"/>
+      <rect class="cls-2" x="19.99" y="275.21" width="38.62" height="76.58"/>
+    </g>
+  </g>
+</svg>

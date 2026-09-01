@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_2" data-name="レイヤー 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 673.42 729.8">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-width: 10px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #fdd2c1;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3 {
+        fill: #faf4de;
+      }
+
+      .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-4 {
+        fill: #b7e0e4;
+      }
+
+      .cls-2 {
+        stroke-width: 10.34px;
+      }
+    </style>
+  </defs>
+  <g id="_レイヤー_4" data-name="レイヤー 4">
+    <g>
+      <line class="cls-2" x1="265.85" y1="147.13" x2="463.52" y2="117.35"/>
+      <polyline class="cls-1" points="230.65 154.35 5 185.94 5 417.08 312.79 417.08 312.79 724.8 526.71 724.8 526.71 705.89 396.49 706.47 396.2 684.65 367.69 684.65 368.27 597.09 564.93 597.38 566.67 704.73 594.4 724.8 644.05 724.8 668.42 671.55 668.42 274.4 635.34 92.07 480.67 117.35"/>
+      <rect class="cls-4" x="41.73" y="213.69" width="49.75" height="25.44"/>
+      <rect class="cls-4" x="35.18" y="248.29" width="62.84" height="36.65"/>
+      <rect class="cls-4" x="43.47" y="298.47" width="32.73" height="41.45"/>
+      <rect class="cls-4" x="95.84" y="298.47" width="56.29" height="29.24"/>
+      <rect class="cls-4" x="55.69" y="355.2" width="61.09" height="25.31"/>
+      <rect class="cls-4" x="157.8" y="335.13" width="43.2" height="57.6"/>
+      <rect class="cls-4" x="105" y="206.4" width="61.96" height="42.76"/>
+      <rect class="cls-4" x="128.23" y="243.49" width="38.73" height="33.6"/>
+      <rect class="cls-4" x="183.11" y="191.56" width="39.27" height="63.71"/>
+      <rect class="cls-4" x="290.89" y="178.47" width="21.82" height="104.73"/>
+      <rect class="cls-4" x="301.8" y="178.47" width="143.56" height="23.56"/>
+      <rect class="cls-4" x="307.91" y="257.89" width="126.55" height="25.31"/>
+      <rect class="cls-4" x="442.14" y="210.33" width="21.38" height="72.87"/>
+      <rect class="cls-4" x="583.69" y="185.02" width="38.4" height="134.4"/>
+      <rect class="cls-4" x="598.09" y="332.95" width="42.19" height="20.95"/>
+      <rect class="cls-4" x="478.96" y="185.02" width="85.08" height="35.78"/>
+      <rect class="cls-4" x="455.4" y="299.35" width="82.91" height="20.07"/>
+      <rect class="cls-4" x="480.67" y="257.89" width="57.63" height="23.56"/>
+      <rect class="cls-4" x="544.85" y="252.22" width="19.19" height="29.24"/>
+      <rect class="cls-4" x="544.85" y="239.35" width="19.19" height="8.51"/>
+      <rect class="cls-4" x="547.91" y="304.58" width="19.42" height="40.15"/>
+      <rect class="cls-4" x="505.36" y="331.85" width="42.55" height="12.87"/>
+      <rect class="cls-4" x="207.98" y="331.85" width="82.91" height="22.04"/>
+      <rect class="cls-4" x="207.98" y="332.95" width="17.02" height="42.76"/>
+      <polygon class="cls-4" points="345.87 309.38 333.65 319.2 333.65 344.73 391.25 344.73 391.25 309.38 345.87 309.38"/>
+      <polygon class="cls-4" points="491.62 138.33 491.62 150.11 509.49 151.42 509.49 164.95 619.18 167.56 619.18 140.07 491.62 138.33"/>
+      <rect class="cls-4" x="477.22" y="155.78" width="23.56" height="14.84"/>
+      <rect class="cls-4" x="321.73" y="578.47" width="31.42" height="43.64"/>
+      <rect class="cls-4" x="321.73" y="626.47" width="31.42" height="38.4"/>
+      <rect class="cls-4" x="459.98" y="11.78" width="13" height="26.62"/>
+      <rect class="cls-4" x="463.91" width="28.15" height="11.78"/>
+      <path class="cls-4" d="M633.87,602.91c-.17-1.05-2.07-11.42-11.93-16.29-7.13-3.53-15.72-2.84-22.4,1.75l7.93,26.47,26.4-11.93Z"/>
+      <polygon class="cls-3" points="338.72 360.22 338.72 536.95 362.45 536.95 362.45 555.93 627.76 555.93 627.76 405.38 567.33 404.73 567.33 360.22 338.72 360.22"/>
+      <polygon class="cls-3" points="23.58 38.4 23.58 117.35 204.46 89.24 202.74 18.55 23.58 38.4"/>
+      <rect class="cls-3" x="540.64" y="625.02" width="15.42" height="64.29"/>
+      <path class="cls-3" d="M540.62,625.55c.89-9.62,4.31-15.99,7.22-16.04,2.99-.05,6.78,6.55,8.22,16.13"/>
+    </g>
+  </g>
+</svg>

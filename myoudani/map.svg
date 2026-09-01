@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_2" data-name="レイヤー 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 663.68 1179.28">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #faf4de;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-3 {
+        fill: #336ea6;
+        stroke: #b7e0e4;
+        stroke-width: 3px;
+      }
+
+      .cls-3, .cls-4, .cls-5 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-4 {
+        stroke-width: 10px;
+      }
+
+      .cls-4, .cls-5 {
+        fill: none;
+        stroke: #fdd2c1;
+      }
+
+      .cls-5 {
+        stroke-width: 10.09px;
+      }
+
+      .cls-2 {
+        fill: #b7e0e4;
+      }
+    </style>
+  </defs>
+  <g id="_レイヤー_4" data-name="レイヤー 4">
+    <g>
+      <polyline class="cls-4" points="453.91 142.24 443.34 5.74 160.66 48.01 166.83 72.74 5.42 116.7 61.15 649.48 91.97 649.48 111.01 865.24 330.16 1172.58 491.78 1073.06 657.34 799.19 629.16 771.89 622.11 741.95 527 639.79"/>
+      <line class="cls-5" x1="458.88" y1="170.42" x2="499.7" y2="583.43"/>
+      <polygon class="cls-2" points="377.59 430.27 384.74 525.88 366.85 550.76 266.92 559.48 272.59 619.7 366.85 613.59 424.45 541.59 424.45 521.52 442.78 520.21 435.79 422.9 377.59 430.27"/>
+      <rect class="cls-2" x="369.54" y="594.43" width="12.71" height="95.56" transform="translate(-26.57 16.31) rotate(-2.4)"/>
+      <rect class="cls-2" x="289.51" y="689.66" width="165.6" height="56.55" transform="translate(-47.04 26.42) rotate(-3.82)"/>
+      <rect class="cls-2" x="414.29" y="783.28" width="82.47" height="85.74" transform="translate(-59.04 35.42) rotate(-4.18)"/>
+      <rect class="cls-2" x="310.96" y="922.68" width="123.64" height="63.89" transform="translate(-68.63 29.73) rotate(-4.18)"/>
+      <rect class="cls-2" x="398.87" y="733.81" width="27.49" height="204.22" transform="translate(-59.87 32.32) rotate(-4.18)"/>
+      <rect class="cls-2" x="441.47" y="914.39" width="75.75" height="73.89" transform="translate(-68.11 37.49) rotate(-4.18)"/>
+      <polygon class="cls-2" points="311.54 817.05 314.05 880.65 382.99 877.16 379.5 813.01 311.54 817.05"/>
+      <rect class="cls-2" x="117.37" y="538.4" width="124.75" height="124.75" transform="translate(-43.34 14.71) rotate(-4.18)"/>
+      <polygon class="cls-3" points="555.1 797.07 559.28 803.73 536.45 837.99 527.12 837.99 523.5 800.11 555.1 797.07"/>
+      <polygon class="cls-1" points="88.01 201.23 100.23 506.68 451.94 400.21 442.78 175.92 88.01 201.23"/>
+      <polygon class="cls-1" points="114.19 735.34 138.63 873.33 245.1 870.83 237.25 717.93 114.19 735.34"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,85 @@
+#keieikeizai_pin{
+    top: 76vw;
+    left: 52vw;
+}
+#keieikeizai_fukidasi{
+    position: absolute;
+    top: 20vw;
+    left: 18vw;
+}
+
+#syakaikagaku_pin{
+    top: 89vw;
+    left: 39vw;
+}
+#syakaikagaku_fukidasi{
+    position: absolute;
+    top: -25vw;
+    left: 20vw;
+}
+#syakaikagaku_image1{
+    top: 9.5vw;
+}
+
+
+@media (hover: hover) {
+    /* hoverが使える端末 PC想定 */
+    #keieikeizai_pin:hover+#keieikeizai_fukidasi{
+        visibility: visible;
+    }
+    #syakaikagaku_pin:hover+#syakaikagaku_fukidasi{
+        visibility: visible;
+    }
+}
+
+
+
+@media (min-width: 481px) and (orientation: landscape){
+    /*横仕様 スマホ*/
+    #keieikeizai_pin{
+        top: 480px; 
+        left: calc(50% + 10px);
+    }
+    #keieikeizai_fukidasi{
+        top: 135px;
+        left: calc(50% - 200px);
+    }
+    
+    #syakaikagaku_pin{
+        top: 560px; 
+        left: calc(50% - 70px);
+    }
+    #syakaikagaku_fukidasi{
+        top: -145px; 
+        left: calc(50% - 185px);
+    }
+    #syakaikagaku_image1{
+        top: 60px;
+    }
+}
+
+
+
+@media (min-width: 960px){
+    /*横仕様 PC (pxを1/10してvwにしよう)*/
+    #keieikeizai_pin{
+        top: 48vw; 
+        left: calc(50% + 1vw);
+    }
+    #keieikeizai_fukidasi{
+        top: 13.5vw;
+        left: calc(50% - 20vw);
+    }
+    
+    #syakaikagaku_pin{
+        top: 56vw;
+        left: calc(50% - 7vw);
+    }
+    #syakaikagaku_fukidasi{
+        top: -14.5vw; 
+        left: calc(50% - 18.5vw);
+    }
+    #syakaikagaku_image1{
+        top: 6vw;
+    }
+}

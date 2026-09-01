@@ -1,0 +1,158 @@
+#compassAndHanrei{
+    margin: 5vw 12vw 0 18vw;
+}
+#hanrei{
+    margin-bottom: 7vw;
+}
+#map{
+    margin: 0 auto 20vw;
+    width: 85vw;
+}
+#library_pin{
+    top: 55vw;
+    left: 70vw;
+}
+#library_fukidasi{
+    position: absolute;
+    top: 0vw;
+    left: 35vw;
+}
+#lcA_pin{
+    top: 56vw;
+    left: 60vw;
+}
+#lcA_fukidasi{
+    position: absolute;
+    top: 0.5vw;
+    left: 25.5vw;
+}
+#lcF_pin{
+    top: 71vw;
+    left: 25vw;
+}
+#lcF_fukidasi{
+    position: absolute;
+    top: 10vw;
+    left: 21vw;
+}
+#lcB_pin{
+    top: 69vw;
+    left: 40vw;
+}
+#lcB_fukidasi{
+    position: absolute;
+    top: 11.5vw;
+    left: 27.5vw;
+}
+
+@media (hover: hover) {
+    /* hoverが使える端末 PC想定 */
+    #library_pin:hover+#library_fukidasi{
+        visibility: visible;
+    }
+    #lcA_pin:hover+#lcA_fukidasi{
+        visibility: visible;
+    }
+    #lcF_pin:hover+#lcF_fukidasi{
+        visibility: visible;
+    }
+    #lcB_pin:hover+#lcB_fukidasi{
+        visibility: visible;
+    }
+}
+
+
+
+@media (min-width: 481px) and (orientation: landscape){
+    /*横仕様 スマホ*/
+    #compassAndHanrei{
+        margin: 30px 0 0 0;
+    }
+    #hanrei{
+        margin-bottom: 50px;
+    }
+    #map{
+        margin: 0 auto 150px;
+        width: 550px;
+    }
+    #library_pin{
+        top: 360px; 
+        left: calc(50% + 150px);
+    }
+    #library_fukidasi{
+        top: 20px; 
+        left: calc(50% - 65px);
+    }
+    #lcA_pin{
+        top: 370px;
+        left: calc(50% + 90px);
+    }
+    #lcA_fukidasi{
+        top: 30px;
+        left: calc(50% - 120px);
+    }
+    #lcF_pin{
+        top: 460px;
+        left: calc(50% - 150px);
+    }
+    #lcF_fukidasi{
+        top: 85px;
+        left: calc(50% - 175px);
+    }
+    #lcB_pin{
+        top: 450px;
+        left: calc(50% - 70px);
+    }
+    #lcB_fukidasi{
+        top: 95px;
+        left: calc(50% - 150px);
+    }
+}
+
+
+
+@media (min-width: 960px){
+    /*横仕様 PC (pxを1/10してvwにしよう)*/
+    #compassAndHanrei{
+        margin: 3vw 0 0 0;
+    }
+    #hanrei{
+        margin-bottom: 5vw;
+    }
+    #map{
+        margin: 0 auto 30vw;
+        width: 55vw;
+    }
+    #library_pin{
+        top: 36vw; 
+        left: calc(50% + 15vw);
+    }
+    #library_fukidasi{
+        top: 2vw; 
+        left: calc(50% - 6.5vw);
+    }
+    #lcA_pin{
+        top: 37vw;
+        left: calc(50% + 9vw);
+    }
+    #lcA_fukidasi{
+        top: 3vw;
+        left: calc(50% - 12vw);
+    }
+    #lcF_pin{
+        top: 46vw;
+        left: calc(50% - 15vw);
+    }
+    #lcF_fukidasi{
+        top: 8.5vw;
+        left: calc(50% - 17.5vw);
+    }
+    #lcB_pin{
+        top: 45vw;
+        left: calc(50% - 7vw);
+    }
+    #lcB_fukidasi{
+        top: 9.5vw;
+        left: calc(50% - 15vw);
+    }
+}

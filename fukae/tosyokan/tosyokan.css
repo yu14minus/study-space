@@ -1,0 +1,109 @@
+#campusName{
+    width: 35vw;
+}
+
+.slide{
+    width: 195vw;
+}
+.slide div {
+    width: 33.33%;
+}
+.slide2 { /* スライドさせるために必要なクラス */
+    transform: translateX(-33.33%);
+}
+.slide3 { /* スライドさせるために必要なクラス */
+    transform: translateX(-66.66%);
+}
+
+.slidee{
+    width: 195vw;
+}
+.slidee div {
+    width: 33.33%;
+}
+.slidee2 { /* スライドさせるために必要なクラス */
+    transform: translateX(-33.33%);
+}
+.slidee3 { /* スライドさせるために必要なクラス */
+    transform: translateX(-66.66%);
+}
+
+.officialSite{
+    width: 31vw;
+}
+.floorMap{
+    width: 34vw;
+}
+
+#floor2{
+    margin: 8vw 0 3vw 8.5vw;
+    width: 30vw;
+}
+#jisyusitu{
+    margin: 10vw 0 3vw 8.5vw;
+    width: 50vw;
+}
+
+
+
+@media (min-width: 481px) and (orientation: landscape){
+    /*横仕様 スマホ*/
+    #campusName{
+        width: 180px;
+    }
+
+    .slide{
+        width: 1050px;
+    }
+    .slidee{
+        width: 1050px;
+    }
+
+    .officialSite{
+        width: 155px;
+    }
+    .floorMap{
+        width: 170px;
+    }
+
+    #floor2{
+        margin: 40px 0 20px calc(50% - 240px);
+        width: 170px;
+    }
+    #jisyusitu{
+        margin: 70px 0 20px calc(50% - 240px);
+        width: 275px;
+    }
+}
+
+
+
+@media (min-width: 960px){
+    /*横仕様 PC (pxを1/10してvwにしよう)*/
+    #campusName{
+        width: 18vw;
+    }
+
+    .slide{
+        width: 105vw;
+    }
+    .slidee{
+        width: 105vw;
+    }
+
+    .officialSite{
+        width: 15.5vw;
+    }
+    .floorMap{
+        width: 17vw;
+    }
+
+    #floor2{
+        margin: 4vw 0 2vw calc(50% - 24vw);
+        width: 17vw;
+    }
+    #jisyusitu{
+        margin: 7vw 0 2vw calc(50% - 24vw);
+        width: 27.5vw;
+    }
+}

@@ -1,0 +1,63 @@
+#campusname{
+    width: 50vw;
+}
+#tosyokan_pin{
+    top: 76vw;
+    left: 27vw;
+}
+#tosyokan_fukidasi{
+    position: absolute;
+    top: 19vw;
+    left: 17vw;
+}
+.fukidasi_syousai{
+    top: 43.5vw;
+}
+
+
+@media (hover: hover) {
+    /* hoverが使える端末 PC想定 */
+    #tosyokan_pin:hover+#tosyokan_fukidasi{
+        visibility: visible;
+    }
+}
+
+
+
+@media (min-width: 481px) and (orientation: landscape){
+    /*横仕様 スマホ*/
+    #campusname{
+        width: 350px;
+    }
+    #tosyokan_pin{
+        top: 480px; 
+        left: calc(50% - 145px);
+    }
+    #tosyokan_fukidasi{
+        top: 125px; 
+        left: calc(50% - 205px);
+    }
+    .fukidasi_syousai{
+        top: 265px;
+    }
+}
+
+
+
+@media (min-width: 960px){
+    /*横仕様 PC (pxを1/10してvwにしよう)*/
+    #campusname{
+        width: 35vw;
+    }
+    #tosyokan_pin{
+        top: 48vw; 
+        left: calc(50% - 14.5vw);
+    }
+    #tosyokan_fukidasi{
+        top: 12.5vw; 
+        left: calc(50% - 20.5vw);
+    }
+    .fukidasi_syousai{
+        top: 26.5vw;
+    }
+}

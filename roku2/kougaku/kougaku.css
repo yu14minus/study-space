@@ -1,0 +1,57 @@
+.slide{
+    width: 65vw;
+}
+.slide div {
+    width: 100%;
+}
+.officialSite{
+    width: 31vw;
+}
+.floorMap{
+    width: 34vw;
+}
+.businessHours{
+    display: block;
+    margin: 0 auto;
+    width: 30vw;
+}
+
+
+
+@media (min-width: 481px) and (orientation: landscape){
+    /*横仕様 スマホ*/
+    .slide{
+        width: 350px;
+    }
+    .officialSite{
+        width: 155px;
+    }
+    .floorMap{
+        width: 170px;
+    }
+    .businessHours{
+        display: block;
+        margin: 0 auto;
+        width: 160px;
+    }
+}
+
+
+
+@media (min-width: 960px){
+    /*横仕様 PC (pxを1/10してvwにしよう)*/
+    .slide{
+        width: 35vw;
+    }
+    .officialSite{
+        width: 15.5vw;
+    }
+    .floorMap{
+        width: 17vw;
+    }
+    .businessHours{
+        display: block;
+        margin: 0 auto;
+        width: 16vw;
+    }
+}

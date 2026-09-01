@@ -1,0 +1,124 @@
+#campusname{
+    width: 60vw;
+}
+#rakomo_pin{
+    top: 78vw;
+    left: 55vw;
+}
+#rakomo_fukidasi{
+    position: absolute;
+    top: 24vw;
+    left: 21vw;
+}
+#rakomo_image{
+    top: 6.5vw;
+}
+#rakomo_syousai{
+    top: 40vw;
+}
+
+#tosyokan_pin{
+    top: 107vw;
+    left: 63vw;
+}
+#tosyokan_fukidasi{
+    position: absolute;
+    top: 3vw;
+    left: 24vw;
+}
+#tosyokan_image2{
+    top: 55vw;
+}
+#tosyokan_syousai{
+    top: 90.5vw;
+    left: 38vw;
+}
+
+
+@media (hover: hover) {
+    /* hoverが使える端末 PC想定 */
+    #rakomo_pin:hover+#rakomo_fukidasi{
+        visibility: visible;
+    }
+    #tosyokan_pin:hover+#tosyokan_fukidasi{
+        visibility: visible;
+    }
+}
+
+
+
+@media (min-width: 481px) and (orientation: landscape){
+    /*横仕様 スマホ*/
+    #campusname{
+        width: 375px;
+    }
+    #rakomo_pin{
+        top: 490px; 
+        left: calc(50% + 30px);
+    }
+    #rakomo_fukidasi{
+        top: 160px; 
+        left: calc(50% - 185px);
+    }
+    #rakomo_image{
+        top: 44px;
+    }
+    #rakomo_syousai{
+        top: 250px;
+    }
+
+    #tosyokan_pin{
+        top: 675px; 
+        left: calc(50% + 80px);
+    }
+    #tosyokan_fukidasi{
+        top: 30px; 
+        left: calc(50% - 160px);
+    }
+    #tosyokan_image2{
+        top: 340px;
+    }
+    #tosyokan_syousai{
+        top: 560px;
+        left: 250px;
+    }
+}
+
+
+
+@media (min-width: 960px){
+    /*横仕様 PC (pxを1/10してvwにしよう)*/
+    #campusname{
+        width: 37.5vw;
+    }
+    #rakomo_pin{
+        top: 49vw; 
+        left: calc(50% + 3vw);
+    }
+    #rakomo_fukidasi{
+        top: 16vw; 
+        left: calc(50% - 18.5vw);
+    }
+    #rakomo_image{
+        top: 4.4vw;
+    }
+    #rakomo_syousai{
+        top: 25vw;
+    }
+
+    #tosyokan_pin{
+        top: 67.5vw; 
+        left: calc(50% + 8vw);
+    }
+    #tosyokan_fukidasi{
+        top: 3vw; 
+        left: calc(50% - 16vw);
+    }
+    #tosyokan_image2{
+        top: 34vw;
+    }
+    #tosyokan_syousai{
+        top: 56vw;
+        left: 25vw;
+    }
+}

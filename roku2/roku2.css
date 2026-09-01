@@ -1,0 +1,384 @@
+#compassAndHanrei{
+    margin: 5vw 15vw 7vw 18vw;
+}
+#compass{
+    transform: rotate(-60deg);
+}
+
+#jouhou_pin{
+    top: 16vw;
+    left: 29.5vw;
+}
+#jouhou_fukidasi{
+    position: absolute;
+    top: 22vw;
+    left: 15vw;
+}
+#jouhou_image{
+    top: 14vw;
+    left: 12vw;
+    width: 36vw;
+}
+#jouhou_syousai{
+    top: 43.5vw;
+}
+
+#sizen_pin{
+    top: 47vw;
+    left: 46vw;
+}
+#sizen_fukidasi{
+    position: absolute;
+    top: 53vw;
+    left: 21vw;
+}
+#sizen_image1{
+    top: 18vw;
+}
+#sizen_image2{
+    top: 67.5vw;
+}
+#sizen_syousai{
+    top: 104vw;
+}
+
+#rigaku_pin{
+    top: 60vw;
+    left: 50vw;
+}
+#rigaku_fukidasi{
+    position: absolute;
+    top: 66vw;
+    left: 21vw;
+}
+#rigaku_image{
+    top: 16vw;
+    left: 11vw;
+    width: 37vw;
+}
+#rigaku_syousai{
+    top: 44.5vw;
+}
+
+#jinbun_pin{
+    top: 69vw;
+    left: 60vw;
+}
+#jinbun_fukidasi{
+    position: absolute;
+    top: -41vw;
+    left: 21vw;
+}
+#jinbun_image2{
+    top: 58vw;
+}
+#jinbun_syousai{
+    top: 94vw;
+}
+
+#nougaku_pin{
+    top: 75vw;
+    left: 34vw;
+}
+#nougaku_fukidasi{
+    position: absolute;
+    top: 19vw;
+    left: 23vw;
+}
+
+#kougaku_pin{
+    top: 29vw;
+    left: 58.5vw;
+}
+#kougaku_fukidasi{
+    position: absolute;
+    top: -19vw;
+    left: 24vw;
+}
+#kougaku_image{
+    left: 14vw;
+    width: 34vw;
+}
+#kougaku_syousai{
+    top: 35.5vw;
+}
+
+#global_pin{
+    top: 60vw;
+    left: 72vw;
+}
+#global_fukidasi{
+    position: absolute;
+    top: 2vw;
+    left: 23vw;
+}
+#global_image{
+    top: 11vw;
+    width: 44vw;
+}
+#global_syousai{
+    top: 43.5vw;
+    left: 38vw;
+}
+
+
+@media (hover: hover) {
+    /* hoverが使える端末 PC想定 */
+    #jouhou_pin:hover+#jouhou_fukidasi{
+        visibility: visible;
+    }
+    #sizen_pin:hover+#sizen_fukidasi{
+        visibility: visible;
+    }
+    #rigaku_pin:hover+#rigaku_fukidasi{
+        visibility: visible;
+    }
+    #jinbun_pin:hover+#jinbun_fukidasi{
+        visibility: visible;
+    }
+    #nougaku_pin:hover+#nougaku_fukidasi{
+        visibility: visible;
+    }
+    #kougaku_pin:hover+#kougaku_fukidasi{
+        visibility: visible;
+    }
+    #global_pin:hover+#global_fukidasi{
+        visibility: visible;
+    }
+}
+
+
+
+@media (min-width: 481px) and (orientation: landscape){
+    /*横仕様 スマホ*/
+    #compass{
+        margin-left: 3vw;
+    }
+
+    #jouhou_pin{
+        top: 105px; 
+        left: calc(50% - 130px);
+    }
+    #jouhou_fukidasi{
+        top: 140px; 
+        left: calc(50% - 220px);
+    }
+    #jouhou_image{
+        top: 85px;
+        left: 70px;
+        width: 225px;
+    }
+    #jouhou_syousai{
+        top: 265px;
+    }
+
+    #sizen_pin{
+        top: 295px; 
+        left: calc(50% - 20px);
+    }
+    #sizen_fukidasi{
+        top: 330px; 
+        left: calc(50% - 175px);
+    }
+    #sizen_image1{
+        top: 115px;
+    }
+    #sizen_image2{
+        top: 420px;
+    }
+    #sizen_syousai{
+        top: 640px;
+    }
+
+    #rigaku_pin{
+        top: 380px; 
+        left: calc(50% + 0px);
+    }
+    #rigaku_fukidasi{
+        top: 415px; 
+        left: calc(50% - 180px);
+    }
+    #rigaku_image{
+        top: 100px;
+        left: 65px;
+        width: 230px;
+    }
+    #rigaku_syousai{
+        top: 275px;
+    }
+
+    #jinbun_pin{
+        top: 435px; 
+        left: calc(50% + 60px);
+    }
+    #jinbun_fukidasi{
+        top: -240px; 
+        left: calc(50% - 180px);
+    }
+    #jinbun_image2{
+        top: 365px;
+    }
+    #jinbun_syousai{
+        top: 580px;
+    }
+
+    #nougaku_pin{
+        top: 480px; 
+        left: calc(50% - 105px);
+    }
+    #nougaku_fukidasi{
+        top: 135px; 
+        left: calc(50% - 175px);
+    }
+    
+    #kougaku_pin{
+        top: 180px; 
+        left: calc(50% + 55px);
+    }
+    #kougaku_fukidasi{
+        top: -115px;
+        left: calc(50% - 155px);
+    }
+    #kougaku_image{
+        left: 80px;
+        width: 210px;
+    }
+    #kougaku_syousai{
+        top: 220px;
+    }
+
+    #global_pin{
+        top: 390px; 
+        left: calc(50% + 140px);
+    }
+    #global_fukidasi{
+        top: 30px; 
+        left: calc(50% - 165px);
+    }
+    #global_image{
+        top: 70px;
+        width: 270px;
+    }
+    #global_syousai{
+        top: 270px;
+        left: 250px;
+    }
+}
+
+
+
+@media (min-width: 960px){
+    /*横仕様 PC (pxを1/10してvwにしよう)*/
+    #compass{
+        margin-left: 3vw;
+    }
+
+    #jouhou_pin{
+        top: 10.5vw; 
+        left: calc(50% - 13vw);
+    }
+    #jouhou_fukidasi{
+        top: 14vw; 
+        left: calc(50% - 22vw);
+    }
+    #jouhou_image{
+        top: 8.5vw;
+        left: 7vw;
+        width: 22.5vw;
+    }
+    #jouhou_syousai{
+        top: 26.5vw;
+    }
+
+    #sizen_pin{
+        top: 29.5vw; 
+        left: calc(50% - 2vw);
+    }
+    #sizen_fukidasi{
+        top: 33vw; 
+        left: calc(50% - 17.5vw);
+    }
+    #sizen_image1{
+        top: 11.5vw;
+    }
+    #sizen_image2{
+        top: 42vw;
+    }
+    #sizen_syousai{
+        top: 64vw;
+    }
+
+    #rigaku_pin{
+        top: 38vw; 
+        left: calc(50% + 0vw);
+    }
+    #rigaku_fukidasi{
+        top: 41.5vw; 
+        left: calc(50% - 18vw);
+    }
+    #rigaku_image{
+        top: 10vw;
+        left: 6.5vw;
+        width: 23vw;
+    }
+    #rigaku_syousai{
+        top: 27.5vw;
+    }
+
+    #jinbun_pin{
+        top: 43.5vw; 
+        left: calc(50% + 6vw);
+    }
+    #jinbun_fukidasi{
+        top: -24vw; 
+        left: calc(50% - 18vw);
+    }
+    #jinbun_image2{
+        top: 36.5vw;
+    }
+    #jinbun_syousai{
+        top: 58vw;
+    }
+
+    #nougaku_pin{
+        top: 48vw; 
+        left: calc(50% - 10.5vw);
+    }
+    #nougaku_fukidasi{
+        top: 13.5vw; 
+        left: calc(50% - 17.5vw);
+    }
+
+    #kougaku_pin{
+        top: 18vw; 
+        left: calc(50% + 5.5vw);
+    }
+    #kougaku_fukidasi{
+        top: -11.5vw;
+        left: calc(50% - 15.5vw);
+    }
+    #kougaku_image{
+        left: 8vw;
+        width: 21vw;
+    }
+    #kougaku_syousai{
+        top: 22vw;
+    }
+
+    #global_pin{
+        top: 39vw; 
+        left: calc(50% + 14vw);
+    }
+    #global_fukidasi{
+        top: 3vw; 
+        left: calc(50% - 16.5vw);
+    }
+    #global_image{
+        top: 7vw;
+        width: 27vw;
+    }
+    #global_syousai{
+        top: 27vw;
+        left: 25vw;
+    }
+}

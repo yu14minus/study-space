@@ -1,0 +1,21 @@
+body{
+    background-color: #336EA7;
+}
+
+#sorry{
+    -webkit-text-size-adjust: 100%; /*テキストサイズ狂い対策*/
+    margin: 30vw 0 0 10vw;
+    color: white;
+    font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
+    font-weight: bold;
+    font-size: 8vw;
+}
+
+#text{
+    -webkit-text-size-adjust: 100%; /*テキストサイズ狂い対策*/
+    margin:2vw 0 30vw 10vw;
+    color: white;
+    font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
+    font-weight: bold;
+    font-size: 3vw;
+}

@@ -1,0 +1,59 @@
+.slide{
+    width: 195vw;
+}
+.slide div {
+    width: 33.33%;
+}
+.slide2 { /* スライドさせるために必要なクラス */
+    transform: translateX(-33.33%);
+}
+.slide3 { /* スライドさせるために必要なクラス */
+    transform: translateX(-66.66%);
+}
+.businessHours{
+    display: block;
+    margin: 0 auto;
+    width: 25vw;
+}
+.officialSite{
+    width: 31vw;
+}
+.floorMap{
+    width: 34vw;
+}
+
+
+
+@media (min-width: 481px) and (orientation: landscape){
+    /*横仕様 スマホ*/
+    .slide{
+        width: 1050px;
+    }
+    .businessHours{
+        width: 130px;
+    }
+    .officialSite{
+        width: 155px;
+    }
+    .floorMap{
+        width: 170px;
+    }
+}
+
+
+
+@media (min-width: 960px){
+    /*横仕様 PC (pxを1/10してvwにしよう)*/
+    .slide{
+        width: 105vw;
+    }
+    .businessHours{
+        width: 13vw;
+    }
+    .officialSite{
+        width: 15.5vw;
+    }
+    .floorMap{
+        width: 17vw;
+    }
+}

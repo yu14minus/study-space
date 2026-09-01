@@ -1,0 +1,477 @@
+body{
+    background-color: #336EA7;
+}
+#campusName{
+    display: block;
+    margin: 25vw 0 0 7vw;
+    width: 40vw;
+}
+#title{
+    margin: 5vw auto;
+    display: block;
+    width: 70vw;
+}
+.subtitle{
+    display: block;
+    margin: 3vw 0 0 8.5vw;
+}
+
+
+/*スライドショー*/
+*,body,ul {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+/* ↓ スライドの外枠 */
+.slide-wrapper {
+    width: 65vw;
+    margin: auto;
+    position: relative;
+    overflow: hidden; /* はみ出したスライドを隠す */
+}
+/*  ↓ スライド（コンテンツ） */
+.slide { /*スライド全体 */
+    display: flex;
+    transition: all 0.3s;
+}
+.slide div { /* スライド */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slide1 { /* スライドさせるために必要なクラス */
+    transform: translateX(0);
+}
+.photo{
+    width: 100%;
+}
+/* ↓ 左右のボタン */
+.flex{/*ボタンとスライド*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10vw;
+}
+.next {
+    transform: scale(-1, 1);
+    display: flex;
+    width: 3vw;
+    z-index: 10;
+    cursor: pointer;
+}
+.prev {
+    display: flex;
+    width: 3vw;
+    z-index: 10;
+    cursor: pointer;
+}
+/* ↓ インジケーター */
+.indicator {
+    margin: 2vw 0;
+    width: 100%;
+    display: flex;
+    column-gap: 1vw;
+    z-index: 10;
+    justify-content: center;
+    align-items: center;
+}
+.indicator li {
+    width: 1.5vw;
+    height: 1.5vw;
+    border-radius: 50%;
+    list-style: none;
+    background-color: #336EA7;
+    border: 0.3vw white solid;
+    cursor: pointer;
+}
+.indicator li:first-of-type {
+    background-color: white;
+}
+
+/* ↓ スライドの外枠 */
+.slide-wrapperr {
+    width: 65vw;
+    margin: auto;
+    position: relative;
+    overflow: hidden; /* はみ出したスライドを隠す */
+}
+/*  ↓ スライド（コンテンツ） */
+.slidee { /*スライド全体 */
+    display: flex;
+    transition: all 0.3s;
+}
+.slidee div { /* スライド */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slidee1 { /* スライドさせるために必要なクラス */
+    transform: translateX(0);
+}
+/* ↓ 左右のボタン */
+.flexx{/*ボタンとスライド*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10vw;
+}
+.nextt {
+    transform: scale(-1, 1);
+    display: flex;
+    width: 3vw;
+    z-index: 10;
+    cursor: pointer;
+}
+.prevv {
+    display: flex;
+    width: 3vw;
+    z-index: 10;
+    cursor: pointer;
+}
+/* ↓ インジケーター */
+.indicatorr {
+    margin: 2vw 0;
+    width: 100%;
+    display: flex;
+    column-gap: 1vw;
+    z-index: 10;
+    justify-content: center;
+    align-items: center;
+}
+.indicatorr li {
+    width: 1.5vw;
+    height: 1.5vw;
+    border-radius: 50%;
+    list-style: none;
+    background-color: #336EA7;
+    border: 0.3vw white solid;
+    cursor: pointer;
+}
+.indicatorr li:first-of-type {
+    background-color: white;
+}
+
+.star_div{
+    position: relative;
+    margin: 3vw 0 2vw 8.5vw;
+    width: 65vw;
+}
+.star_drink{
+    position: absolute;
+    margin: 8.9vw 0 0 -6.7vw;
+    width: 91.5vw;
+}
+.noOutlet{
+    position: absolute;
+    margin: 5vw 0 0 33.5vw;
+    width: 15vw;
+}
+.noFood{
+    position: absolute;
+    margin: 9.8vw 0 0 33.5vw;
+    width: 15vw;
+}
+.drink{
+    position: absolute;
+    margin: 9.8vw 0 0 33.5vw;
+    width: 15vw;
+}
+.noTalking{
+    position: absolute;
+    margin: 14.5vw 0 0 33.5vw;
+    width: 15vw;
+}
+.noBoard{
+    position: absolute;
+    margin: 19.5vw 0 0 33.5vw;
+    width: 15vw;
+}
+.attention{
+    display: block;
+    margin: 0 0 4vw 41vw;
+    width: 50vw;
+}
+.star{
+    display: block;
+}
+.comment{
+    margin: auto;
+    display: block;
+    width: 85vw;
+}
+.brokenLine{
+    margin: 7vw auto;
+    display: block;
+    width: 90vw;
+}
+.businessHours_title{
+    margin: 0 auto 5vw;
+    display: block;
+    width: 20vw;
+}
+.information{
+    margin: 2vw auto 20vw;
+    display: block;
+    width: 80vw;
+}
+.officialSite{
+    display: block;
+    margin-top: 5vw;
+}
+.floorMap{
+    display: block;
+    margin-top: 2vw;
+}
+
+
+
+@media (min-width: 481px) and (orientation: landscape){
+    /*横仕様 スマホ*/
+    #campusName{
+        margin: 18vw 0 0 calc(50% - 240px);
+        width: 220px;
+    }
+    #title{
+        margin: 20px auto;
+        width: 400px;
+    }
+    .subtitle{
+        display: block;
+        margin: 25px 0 0 calc(50% - 240px);
+    }
+
+
+    /*スライドショー*/
+    /* ↓ スライドの外枠 */
+    .slide-wrapper {
+        width: 350px;
+        margin: auto 20px;
+    }
+    /* ↓ 左右のボタン */
+    .flex{/*ボタンとスライド*/
+        justify-content: center;
+        margin: 0;
+    }
+    .next {
+        width: 15px;
+    }
+    .prev {
+        width: 15px;
+    }
+    /* ↓ インジケーター */
+    .indicator {
+        margin: 10px 0 20px;
+        column-gap: 5px;
+    }
+    .indicator li {
+        width: 8px;
+        height: 8px;
+        border: 1.5px white solid;
+    }
+     /* ↓ スライドの外枠 */
+     .slide-wrapperr {
+        width: 350px;
+        margin: auto 20px;
+    }
+    /* ↓ 左右のボタン */
+    .flexx{/*ボタンとスライド*/
+        justify-content: center;
+        margin: 0;
+    }
+    .nextt {
+        width: 15px;
+    }
+    .prevv {
+        width: 15px;
+    }
+    /* ↓ インジケーター */
+    .indicatorr {
+        margin: 10px 0 20px;
+        column-gap: 5px;
+    }
+    .indicatorr li {
+        width: 8px;
+        height: 8px;
+        border: 1.5px white solid;
+    }
+
+
+    .star_div{
+        margin: 15px 0 10px calc(50% - 190px);
+        width: 300px;
+    }
+    .star_drink{
+        margin: 40px 0 0 -32px;
+        width: 425px;
+    }
+    .noOutlet{
+        margin: 23.5px 0 0 154px;
+        width: 70px;
+    }
+    .noFood{
+        margin: 45px 0 0 154px;
+        width: 70px;
+    }
+    .drink{
+        margin: 45px 0 0 154px;
+        width: 70px;
+    }
+    .noTalking{
+        margin: 67px 0 0 154px;
+        width: 70px;
+    }
+    .noBoard{
+        margin: 89.5px 0 0 154px;
+        width: 70px;
+    }
+    .attention{
+        margin: 0 0 20px calc(50% - 40px);
+        width: 230px;
+    }
+    .comment{
+        width: 400px;
+    }
+    .brokenLine{
+        margin: 30px auto;
+        width: 500px;
+    }
+    .businessHours_title{
+        margin: 0 auto 20px;
+        width: 100px;
+    }
+    .information{
+        margin: 10px auto 10vw;
+        width: 400px;
+    }
+    .officialSite{
+        margin-top: 30px;
+    }
+    .floorMap{
+        margin-top: 10px;
+    }
+}
+
+
+
+@media (min-width: 960px){
+    /*横仕様 PC (pxを1/10してvwにしよう)*/
+    #campusName{
+        margin: 18vw 0 0 calc(50% - 24vw);
+        width: 22vw;
+    }
+    #title{
+        margin: 2vw auto;
+        width: 40vw;
+    }
+    .subtitle{
+        display: block;
+        margin: 2.5vw 0 0 calc(50% - 24vw);
+    }
+
+
+    /*スライドショー*/
+    /* ↓ スライドの外枠 */
+    .slide-wrapper {
+        width: 35vw;
+        margin: auto 2vw;
+    }
+    /* ↓ 左右のボタン */
+    .next {
+        width: 1.5vw;
+    }
+    .prev {
+        width: 1.5vw;
+    }
+    /* ↓ インジケーター */
+    .indicator {
+        margin: 1vw 0 2vw;
+        column-gap: 0.5vw;
+    }
+    .indicator li {
+        width: 0.8vw;
+        height: 0.8vw;
+        border: 0.15vw white solid;
+    }
+    /* ↓ スライドの外枠 */
+    .slide-wrapperr {
+        width: 35vw;
+        margin: auto 2vw;
+    }
+    /* ↓ 左右のボタン */
+    .nextt {
+        width: 1.5vw;
+    }
+    .prevv {
+        width: 1.5vw;
+    }
+    /* ↓ インジケーター */
+    .indicatorr {
+        margin: 1vw 0 2vw;
+        column-gap: 0.5vw;
+    }
+    .indicatorr li {
+        width: 0.8vw;
+        height: 0.8vw;
+        border: 0.15vw white solid;
+    }
+
+
+    .star_div{
+        margin: 1.5vw 0 1vw calc(50% - 19vw);
+        width: 30vw;
+    }
+    .star_drink{
+        margin: 4vw 0 0 -3.2vw;
+        width: 42.5vw;
+    }
+    .noOutlet{
+        margin: 2.35vw 0 0 15.4vw;
+        width: 7vw;
+    }
+    .noFood{
+        margin: 4.5vw 0 0 15.4vw;
+        width: 7vw;
+    }
+    .drink{
+        margin: 4.5vw 0 0 15.4vw;
+        width: 7vw;
+    }
+    .noTalking{
+        margin: 6.7vw 0 0 15.4vw;
+        width: 7vw;
+    }
+    .noBoard{
+        margin: 8.95vw 0 0 15.4vw;
+        width: 7vw;
+    }
+    .attention{
+        margin: 0 0 2vw calc(50% - 4vw);
+        width: 23vw;
+    }
+    .comment{
+        width: 40vw;
+    }
+    .brokenLine{
+        margin: 3vw auto;
+        width: 50vw;
+    }
+    .businessHours_title{
+        margin: 0 auto 2vw;
+        width: 10vw;
+    }
+    .information{
+        margin: 1vw auto 20vw;
+        width: 40vw;
+    }
+    .officialSite{
+        margin-top: 3vw;
+    }
+    .floorMap{
+        margin-top: 1vw;
+    }
+}

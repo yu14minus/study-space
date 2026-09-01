@@ -1,0 +1,94 @@
+.slide{
+    width: 195vw;
+}
+.slide div {
+    width: 33.33%;
+}
+.slide2 { /* スライドさせるために必要なクラス */
+    transform: translateX(-33.33%);
+}
+.slide3 { /* スライドさせるために必要なクラス */
+    transform: translateX(-66.66%);
+}
+
+.slidee{
+    width: 195vw;
+}
+.slidee div {
+    width: 33.33%;
+}
+.slidee2 { /* スライドさせるために必要なクラス */
+    transform: translateX(-33.33%);
+}
+.slidee3 { /* スライドさせるために必要なクラス */
+    transform: translateX(-66.66%);
+}
+
+.officialSite{
+    width: 31vw;
+}
+.floorMap{
+    width: 34vw;
+}
+
+#rakomo{
+    margin: 10vw 0 3vw 8.5vw;
+    width: 65vw;
+}
+#rakomo_star{
+    width: 74.5vw;
+}
+
+
+
+@media (min-width: 481px) and (orientation: landscape){
+    /*横仕様 スマホ*/
+    .slide{
+        width: 1050px;
+    }
+    .slidee{
+        width: 1050px;
+    }
+
+    .officialSite{
+        width: 155px;
+    }
+    .floorMap{
+        width: 170px;
+    }
+
+    #rakomo{
+        margin: 70px 0 20px calc(50% - 240px);
+        width: 350px;
+    }
+    #rakomo_star{
+        width: 345px;
+    }
+}
+
+
+
+@media (min-width: 960px){
+    /*横仕様 PC (pxを1/10してvwにしよう)*/
+    .slide{
+        width: 105vw;
+    }
+    .slidee{
+        width: 105vw;
+    }
+
+    .officialSite{
+        width: 15.5vw;
+    }
+    .floorMap{
+        width: 17vw;
+    }
+
+    #rakomo{
+        margin: 7vw 0 2vw calc(50% - 24vw);
+        width: 35vw;
+    }
+    #rakomo_star{
+        width: 34.5vw;
+    }
+}

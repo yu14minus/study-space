@@ -1,0 +1,132 @@
+#campusname{
+    width: 60vw;
+}
+#rakomo_pin{
+    top: 23vw;
+    left: 43vw;
+}
+#rakomo_fukidasi{
+    position: absolute;
+    top: -28vw;
+    left: 9vw;
+}
+#rakomo_image{
+    left: 10vw;
+    width: 40vw;
+}
+#rakomo_syousai{
+    top: 38.5vw;
+}
+
+#tosyokan_pin{
+    top: 36vw;
+    left: 28vw;
+}
+#tosyokan_fukidasi{
+    position: absolute;
+    top: -77vw;
+    left: 10vw;
+}
+#tosyokan_image1{
+    top: 9vw;
+}
+#tosyokan_image2{
+    top: 61vw;
+}
+#tosyokan_syousai{
+    top: 98vw;
+}
+
+
+@media (hover: hover) {
+    /* hoverが使える端末 PC想定 */
+    #rakomo_pin:hover+#rakomo_fukidasi{
+        visibility: visible;
+    }
+    #tosyokan_pin:hover+#tosyokan_fukidasi{
+        visibility: visible;
+    }
+}
+
+
+
+@media (min-width: 481px) and (orientation: landscape){
+    /*横仕様 スマホ*/
+    #campusname{
+        width: 375px;
+    }
+    #rakomo_pin{
+        top: 150px; 
+        left: calc(50% - 45px);
+    }
+    #rakomo_fukidasi{
+        top: -160px; 
+        left: calc(50% - 260px);
+    }
+    #rakomo_image{
+        left: 60px;
+        width: 245px;
+    }
+    #rakomo_syousai{
+        top: 240px;
+    }
+
+    #tosyokan_pin{
+        top: 225px;
+        left: calc(50% - 135px);
+    }
+    #tosyokan_fukidasi{
+        top: -470px;
+        left: calc(50% - 250px);
+    }
+    #tosyokan_image1{
+        top: 65px;
+    }
+    #tosyokan_image2{
+        top: 385px;
+    }
+    #tosyokan_syousai{
+        top: 605px;
+    }
+}
+
+
+@media (min-width: 960px){
+    /*横仕様 PC (pxを1/10してvwにしよう)*/
+    #campusname{
+        width: 37.5vw;
+    }
+    #rakomo_pin{
+        top: 15vw;
+        left: calc(50% - 4.5vw);
+    }
+    #rakomo_fukidasi{
+        top: -16vw; 
+        left: calc(50% - 26vw);
+    }
+    #rakomo_image{
+        left: 6vw;
+        width: 24.5vw;
+    }
+    #rakomo_syousai{
+        top: 24vw;
+    }
+
+    #tosyokan_pin{
+        top: 22.5vw;
+        left: calc(50% - 13.5vw);
+    }
+    #tosyokan_fukidasi{
+        top: -47vw;
+        left: calc(50% - 25vw);
+    }
+    #tosyokan_image1{
+        top: 6.5vw;
+    }
+    #tosyokan_image2{
+        top: 38.5vw;
+    }
+    #tosyokan_syousai{
+        top: 60.5vw;
+    }
+}

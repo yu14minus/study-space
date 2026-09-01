@@ -1,0 +1,12 @@
+# 機密・設定ファイル
+**/common/include/db.php
+*.env
+
+# 作業用ファイル
+all_codes.txt
+check_result.txt
+
+# OS・エディタ関連
+.DS_Store
+Thumbs.db
+.vscode/
